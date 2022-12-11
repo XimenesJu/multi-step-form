@@ -18,7 +18,8 @@ h2 {
   font-family: ubuntuh1;
 }
 
-h4 {
+h4,
+h3 {
   font-family: ubuntuh4;
 
 }
@@ -67,8 +68,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: hsl(227, 36%, 67%);
 
-
+}
 
 .stepnumber {
   display: flex;
@@ -132,10 +135,81 @@ a {
   font-size: 0.8rem;
   font-family: ubuntuh4;
   line-height: 1.2rem;
-
 }
 
 
+
+
 .step-detail {
+  display: flex;
   flex-direction: column;
+  color: hsl(228, 45%, 44%);
+}
+
+.step-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.step-detail p {
+  color: hsl(240, 1%, 73%);
+  margin-bottom: 10%;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: hsl(228, 45%, 44%);
+}
+
+input[type=button] {
+  display: flex;
+  text-decoration: none;
+  background-color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+  text-align: end;
+  align-self: flex-end;
+  margin-top: 15%;
+  border-radius: 10px;
+  border: none;
+  line-height: 2rem;
+  width: 25%;
+}
+
+input[type=button]:hover {
+  background-color: hsl(228, 58%, 57%);
+  cursor: pointer;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+  box-sizing: border-box;
+  line-height: 2rem;
+  border-color: hsl(240, 1%, 73%);
+  border-radius: 10px;
+  margin: 2% 0 5% 0;
+  width: 70%;
+  border-style: double;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+  box-sizing: border-box;
+
+  outline: groove;
+  outline-color: hsl(228, 45%, 44%);
+  border: none;
+
+
+}
+
+input::placeholder {
+  color: hsl(240, 1%, 73%);
+  font-family: ubuntup;
+  text-align: center;
 }
