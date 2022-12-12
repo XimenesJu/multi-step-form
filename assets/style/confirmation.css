@@ -1,0 +1,20 @@
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.thank-you h1 {
+  color: hsl(228, 45%, 44%);
+  font-size: 2rem;
+  margin: 5% 0 5% 0;
+}
+
+p {
+  color: hsl(240, 1%, 73%);
+  text-align: center;
+  line-height: 1.5;
+  width: 80%;
+}

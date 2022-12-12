@@ -1,0 +1,106 @@
+p {
+  color: hsl(240, 1%, 73%);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(110, 0, 213);
+}
+
+.finishing-up {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.finishing-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.finishing-up h1 {
+  color: hsl(228, 45%, 44%);
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+.finishing-up p {
+  color: hsl(240, 1%, 73%);
+  margin: 5% 0 5% 0;
+}
+
+.resume-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+
+}
+
+.selected-plan-resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-bottom: solid 1px hsl(240, 1%, 73%);
+  padding-bottom: 5%;
+  margin: 5%;
+}
+
+.selected-plan h1 {
+  color: hsl(228, 45%, 44%);
+  font-size: 1rem;
+  margin-bottom: 2%;
+}
+
+.selected-plan a {
+  font-family: ubuntup;
+  text-decoration: underline;
+  color: hsl(240, 1%, 73%);
+}
+
+.addons-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.selected-addons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.addon-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+
+.plan-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 2% 0 2% 0;
+
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}

@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/assets/style/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
-    <title>Multi Step Form</title>
-  </head>
-  <body>
-    <main class="flex-container">
-      <section class="steps-counter">
-        <nav class="steps-menu">
-          <a href="index.html" class="step1">
-            <div class="stepnumber"><h4>1</h4></div>
-            <div class="step-description">
-              <h1>Step 1</h1>
-              <h2>Your info</h2>
-            </div>
-          </a>
-          <a href="steps/step2.html" class="step2">
-            <div class="stepnumber"><h4>2</h4></div>
-            <div class="step-description">
-              <h1>Step 2</h1>
-              <h2>Select Plan</h2>
-            </div>
-          </a>
-          <a href="steps/step3.html" class="step3">
-            <div class="stepnumber"><h4>3</h4></div>
-            <div class="step-description">
-              <h1>Step 3</h1>
-              <h2>Add-Ons</h2>
-            </div>
-          </a>
-          <a href="/steps/step4.html" class="step4">
-            <div class="stepnumber"><h4>4</h4></div>
-            <div class="step-description">
-              <h1>Step 4</h1>
-              <h2>Summary</h2>
-            </div>
-          </a>
-        </nav>
-      </section>
 
-    </main>
-  </body>
-  <footer>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/assets/style/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/step3.css">
+  <script src="../assets/js/index.js"></script>
+  <title>Multi Step Form</title>
+</head>
 
-  </footer>
+<body>
+  <main class="flex-container">
+    <section class="steps-counter">
+      <nav class="steps-menu">
+        <a href="index.html" class="step1">
+          <div class="stepnumber">
+            <h4>1</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 1</h1>
+            <h2>Your info</h2>
+          </div>
+        </a>
+        <a href="steps/step2.html" class="step2">
+          <div class="stepnumber">
+            <h4>2</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 2</h1>
+            <h2>Select Plan</h2>
+          </div>
+        </a>
+        <a href="steps/step3.html" class="step3">
+          <div class="stepnumber">
+            <h4>3</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 3</h1>
+            <h2>Add-Ons</h2>
+          </div>
+        </a>
+        <a href="/steps/step4.html" class="step4">
+          <div class="stepnumber">
+            <h4>4</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 4</h1>
+            <h2>Summary</h2>
+          </div>
+        </a>
+      </nav>
+    </section>
+    <section class="addons">
+      <div class="addons-header">
+        <h1>Pick add-ons</h1>
+        <p>Add-ons help enhance your gaming experience.</p>
+      </div>
+      <div class="addon1">
+        <div>
+          <input type="checkbox" id="addon1">
+        </div>
+        <div class="addon1-description">
+          <h3>Online service</h3>
+          <p>Access to multiplayer games</p>
+        </div>
+        <div>
+          <p>+$1/mo</p>
+        </div>
+      </div>
+      <div class="addon2">
+        <div>
+          <input type="checkbox" id="addon1">
+        </div>
+        <div class="addon2-description">
+          <h3>Online service</h3>
+          <p>Access to multiplayer games</p>
+        </div>
+        <div>
+          <p>+$1/mo</p>
+        </div>
+      </div>
+      <div class="addon3">
+        <div>
+          <input type="checkbox" id="addon1">
+        </div>
+        <div class="addon3-description">
+          <h3>Online service</h3>
+          <p>Access to multiplayer games</p>
+        </div>
+        <div>
+          <p>+$1/mo</p>
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <input type="button" value="Go Back" id="inputbutton" onclick="goToStep2()">
+        <input type="button" value="Next Step" id="inputbutton" onclick="goToStep4()">
+      </div>
+    </section>
+  </main>
+</body>
+<footer>
+
+</footer>
+
 </html>
