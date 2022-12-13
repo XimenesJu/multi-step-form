@@ -143,16 +143,17 @@ a:hover {
   display: flex;
   flex-direction: column;
   color: hsl(228, 45%, 44%);
+  width: 50%;
 }
 
 .step-detail h1 {
   font-size: 2rem;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .step-detail p {
   color: hsl(240, 1%, 73%);
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 
 }
 
@@ -170,7 +171,7 @@ input[type=button] {
   justify-content: center;
   text-align: end;
   align-self: flex-end;
-  margin-top: 15%;
+  margin-top: 5%;
   border-radius: 10px;
   border: none;
   line-height: 2rem;
@@ -191,7 +192,7 @@ input[type=tel] {
   border-color: hsl(240, 1%, 73%);
   border-radius: 10px;
   margin: 2% 0 5% 0;
-  width: 70%;
+  width: 60%;
   border-style: double;
 }
 
