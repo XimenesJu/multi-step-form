@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/assets/style/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
+  <script src="../assets/js/index.js"></script>
+  <title>Multi Step Form</title>
+</head>
+
+<body>
+  <main class="flex-container">
+    <section class="steps-counter">
+      <nav class="steps-menu">
+        <a href=../steps/index.html class="step1">
+          <div class="stepnumber">
+            <h4>1</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 1</h1>
+            <h2>Your info</h2>
+          </div>
+        </a>
+        <a href="../steps/step2.html" class="step2">
+          <div class="stepnumber">
+            <h4>2</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 2</h1>
+            <h2>Select Plan</h2>
+          </div>
+        </a>
+        <a href="../steps/step3.html" class="step3">
+          <div class="stepnumber">
+            <h4>3</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 3</h1>
+            <h2>Add-Ons</h2>
+          </div>
+        </a>
+        <a href="../steps/step4.html" class="step4">
+          <div class="stepnumber">
+            <h4>4</h4>
+          </div>
+          <div class="step-description">
+            <h1>Step 4</h1>
+            <h2>Summary</h2>
+          </div>
+        </a>
+      </nav>
+    </section>
+    <section class="step-detail">
+      <h1>Personal Info</h1>
+      <p>Please provide your name, email adress and phone number.</p>
+      <form class="container" action="get-personal-info">
+        <h4>Name</h4>
+        <input type="text" name="user-name" id="input" placeholder="e.g. Stephen King">
+        <h4>E-mail Adress</h4>
+        <input type="email" name="user-email" id="input" placeholder="e.g. stephenking@lorem.com">
+        <h4>Phone Number</h4>
+        <input type="tel" name="phone-number" id="input" placeholder="e.g. +1 234 567 890">
+        <input type="button" value="Next Step" id="inputbutton" onclick="goToStep2()">
+      </form>
+    </section>
+  </main>
+</body>
+<footer>
+
+</footer>
+
+</html>
