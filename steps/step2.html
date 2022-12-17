@@ -16,7 +16,7 @@
   <main class="flex-container">
     <section class="steps-counter">
       <nav class="steps-menu">
-        <a href=../steps/index.html class="step1">
+        <a href=/index.html class="step1">
           <div class="stepnumber">
             <h4>1</h4>
           </div>
@@ -60,21 +60,21 @@
         <p>You have the option of monthly or yearly billing.</p>
       </div>
       <div class="plans">
-        <div class="card">
+        <div id="arcade" class="card" onclick="plan1()">
           <img src="../assets/images/icon-arcade.svg" alt="" />
           <div class="card-container">
-            <h3>Arcade</h3>
-            <p>$9/mo</p>
+            <h3 id="plan1name">Arcade</h3>
+            <p id="plan1price">$9/mo</p>
           </div>
         </div>
-        <div class="card">
+        <div id="advanced" class="card">
           <img src="../assets/images/icon-advanced.svg" alt="" />
           <div class="card-container">
             <h3>Advanced</h3>
             <p>$12/mo</p>
           </div>
         </div>
-        <div class="card">
+        <div id="pro" class="card">
           <img src="../assets/images/icon-pro.svg" alt="" />
           <div class="card-container">
             <h3>Pro</h3>
