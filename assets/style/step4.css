@@ -31,6 +31,12 @@ h3 {
   margin: 5% 0 5% 0;
 }
 
+.hr {
+  width: 80%;
+  color: hsl(240, 1%, 73%);
+
+}
+
 .resume-background {
   display: flex;
   flex-direction: column;
@@ -41,12 +47,14 @@ h3 {
 
 }
 
+
+
 .selected-plan-resume {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  border-bottom: solid 1px hsl(240, 1%, 73%);
+  /* border-bottom: solid 1px hsl(240, 1%, 73%); */
   padding-bottom: 5%;
   margin: 5%;
 }

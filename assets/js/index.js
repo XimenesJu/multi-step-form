@@ -22,14 +22,16 @@ function goToConfirmation() {
   location.replace("../steps/confirmation.html")
 }
 
+var arcade = document.getElementById('arcade')
+var p1n = document.getElementById('plan1name')
+var p1p = document.getElementById('plan1price')
+var p1s = document.getElementById('planselected')
+var p1sp = document.getElementById('planselectedprice')
+
+arcade.addEventListener('click', plan1)
+
 function plan1() {
   
-  var p1n = document.getElementById('plan1name')
-  var p1p = document.getElementById('plan1price')
-  var p1s = document.getElementById('planselected')
-  var p1sp = document.getElementById('planselectedprice')
-
-
-  p1s.innerHTML = p1n
-  p1sp.innerHTML = p1p
+  p1s.innerText = p1n
+  p1sp.innerText = p1p
 }
